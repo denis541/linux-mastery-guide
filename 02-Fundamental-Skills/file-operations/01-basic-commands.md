@@ -13,8 +13,6 @@ In Linux, almost everything is treated as a **file** – regular files, director
 | `ls` | `ls -l` | Lists files and directories. Options: `-a` (all), `-l` (long format), `-h` (human-readable sizes). |
 | `cd` | `cd /home/user` | Changes directory. Use `cd ..` to go up one level, `cd ~` for home. |
 
-<img width="1920" height="947" alt="image" src="https://github.com/user-attachments/assets/63b82db9-3fb7-4e8f-bb76-9c00291aa748" />
-
 ---
 
 ## 🔹 Creating Files & Directories  
