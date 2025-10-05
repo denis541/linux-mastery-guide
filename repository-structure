@@ -1,112 +1,112 @@
-
-linux-mastery-guide/
+├── 📁 01-Basics-Getting-Started/
+│   ├── 📄 01-what-is-linux.md
+│   ├── 📄 02-distributions-overview.md
+│   ├── 📄 03-installation-guides.md
+│   └── 📄 04-desktop-environment.md
 │
-├── 📄 README.md # Main project documentation
-├── 📄 roadmap.md # Learning path and timeline
-├── 📄 contributing.md # Contribution guidelines
-├── 📄 LICENSE # MIT License file
-├── 📄 repository-structure.md # This file
+├── 📁 02-Fundamental-Skills/
+│   ├── 📁 file-system/
+│   │   ├── 📄 01-filesystem-hierarchy.md
+│   │   └── 📄 02-paths-navigation.md
+│   ├── 📁 file-operations/
+│   │   ├── 📄 01-basic-commands.md
+│   │   └── 📄 02-permissions-ownership.md
+│   ├── 📁 text-processing/
+│   │   ├── 📄 01-text-editors.md
+│   │   └── 📄 02-grep-awk-sed.md
+│   ├── 📁 system-basics/
+│   │   ├── 📄 01-user-management.md
+│   │   └── 📄 02-process-management.md
+│   ├── 📁 package-management/
+│   │   ├── 📄 01-apt-yum-dnf.md
+│   │   ├── 📄 02-pacman-zypper.md
+│   │   └── 📄 03-compiling-from-source.md
+│   ├── 📁 monitoring-troubleshooting/
+│   │   ├── 📄 01-top-htop.md
+│   │   ├── 📄 02-iostat-sar.md
+│   │   ├── 📄 03-strace-lsof.md
+│   │   └── 📄 04-tcpdump-netstat.md
+│   └── 📁 job-scheduling/
+│       ├── 📄 01-cron-basics.md
+│       ├── 📄 02-at-commands.md
+│       └── 📄 03-systemd-timers.md
 │
-├── 📁 01-basics-getting-started/
-│ ├── 📄 01-what-is-linux.md
-│ ├── 📄 02-distributions-overview.md
-│ ├── 📄 03-installation-guides.md
-│ └── 📄 04-desktop-environment.md
+├── 📁 03-Intermediate-Administration/
+│   ├── 📁 bash-scripting/
+│   │   ├── 📄 01-scripting-basics.md
+│   │   ├── 📄 02-variables-loops.md
+│   │   └── 📄 03-functions-arguments.md
+│   ├── 📁 networking/
+│   │   ├── 📄 01-network-commands.md
+│   │   └── 📄 02-ssh-configuration.md
+│   ├── 📁 storage-management/
+│   │   ├── 📄 01-lvm-basics.md
+│   │   ├── 📄 02-raid-setup.md
+│   │   └── 📄 03-disk-quotas.md
+│   ├── 📁 disk-management/
+│   │   ├── 📄 01-partitions-filesystems.md
+│   │   └── 📄 02-mounting-fstab.md
+│   ├── 📁 kernel-management/
+│   │   ├── 📄 01-kernel-modules.md
+│   │   ├── 📄 02-sysctl-tuning.md
+│   │   └── 📄 03-kernel-upgrades.md
+│   └── 📁 system-services/
+│       ├── 📄 01-systemd-services.md
+│       └── 📄 02-log-management.md
 │
-├── 📁 02-fundamental-skills/
-│ ├── 📁 file-system/
-│ │ ├── 📄 01-filesystem-hierarchy.md
-│ │ └── 📄 02-paths-navigation.md
-│ │
-│ ├── 📁 file-operations/
-│ │ ├── 📄 01-basic-commands.md
-│ │ └── 📄 02-permissions-ownership.md
-│ │
-│ ├── 📁 text-processing/
-│ │ ├── 📄 01-text-editors.md
-│ │ └── 📄 02-grep-awk-sed.md
-│ │
-│ └── 📁 system-basics/
-│ ├── 📄 01-user-management.md
-│ └── 📄 02-process-management.md
+├── 📁 04-Advanced-Topics/
+│   ├── 📁 advanced-networking/
+│   │   ├── 📄 01-firewalls-iptables.md
+│   │   └── 📄 02-vpn-setup.md
+│   ├── 📁 networking-advanced/
+│   │   ├── 📄 01-routing-and-bridging.md
+│   │   ├── 📄 02-network-namespaces.md
+│   │   └── 📄 03-troubleshooting-tools.md
+│   ├── 📁 security/
+│   │   ├── 📄 01-security-hardening.md
+│   │   └── 📄 02-selinux-apparmor.md
+│   ├── 📁 security-extras/
+│   │   ├── 📄 01-fail2ban-auditd.md
+│   │   └── 📄 02-intrusion-detection.md
+│   ├── 📁 containers/
+│   │   ├── 📄 01-docker-basics.md
+│   │   └── 📄 02-kubernetes-intro.md
+│   ├── 📁 virtualization/
+│   │   ├── 📄 01-kvm-qemu-basics.md
+│   │   ├── 📄 02-virtualbox-vmware.md
+│   │   └── 📄 03-libvirt-management.md
+│   └── 📁 automation/
+│       ├── 📄 01-ansible-basics.md
+│       └── 📄 02-cloud-provisioning.md
 │
-├── 📁 03-intermediate-administration/
-│ ├── 📁 bash-scripting/
-│ │ ├── 📄 01-scripting-basics.md
-│ │ ├── 📄 02-variables-loops.md
-│ │ └── 📄 03-functions-arguments.md
-│ │
-│ ├── 📁 networking/
-│ │ ├── 📄 01-network-commands.md
-│ │ └── 📄 02-ssh-configuration.md
-│ │
-│ ├── 📁 disk-management/
-│ │ ├── 📄 01-partitions-filesystems.md
-│ │ └── 📄 02-mounting-fstab.md
-│ │
-│ └── 📁 system-services/
-│ ├── 📄 01-systemd-services.md
-│ └── 📄 02-log-management.md
-│
-├── 📁 04-advanced-topics/
-│ ├── 📁 advanced-networking/
-│ │ ├── 📄 01-firewalls-iptables.md
-│ │ └── 📄 02-vpn-setup.md
-│ │
-│ ├── 📁 security/
-│ │ ├── 📄 01-security-hardening.md
-│ │ └── 📄 02-selinux-apparmor.md
-│ │
-│ ├── 📁 containers/
-│ │ ├── 📄 01-docker-basics.md
-│ │ └── 📄 02-kubernetes-intro.md
-│ │
-│ └── 📁 automation/
-│ ├── 📄 01-ansible-basics.md
-│ └── 📄 02-cloud-provisioning.md
+├── 📁 enterprise-services/
+│   ├── 📄 01-ldap-freeipa.md
+│   ├── 📄 02-nfs-samba.md
+│   └── 📄 03-mail-servers.md
 │
 ├── 📁 projects/
-│ ├── 📁 beginner/
-│ │ ├── 📄 basic-file-manager-script.md
-│ │ └── 📄 system-info-script.md
-│ │
-│ ├── 📁 intermediate/
-│ │ ├── 📄 backup-automation.md
-│ │ └── 📄 user-management-system.md
-│ │
-│ └── 📁 advanced/
-│ ├── 📄 dockerized-web-app.md
-│ └── 📄 infrastructure-automation.md
+│   ├── 📁 beginner/
+│   │   ├── 📄 basic-file-manager-script.md
+│   │   └── 📄 system-info-script.md
+│   ├── 📁 intermediate/
+│   │   ├── 📄 backup-automation.md
+│   │   └── 📄 user-management-system.md
+│   └── 📁 advanced/
+│       ├── 📄 dockerized-web-app.md
+│       └── 📄 infrastructure-automation.md
 │
 ├── 📁 cheatsheets/
-│ ├── 📄 command-cheatsheet.md
-│ ├── 📄 permissions-cheatsheet.md
-│ ├── 📄 networking-cheatsheet.md
-│ └── 📄 vim-cheatsheet.md
+│   ├── 📄 command-cheatsheet.md
+│   ├── 📄 permissions-cheatsheet.md
+│   ├── 📄 networking-cheatsheet.md
+│   └── 📄 vim-cheatsheet.md
 │
 ├── 📁 exercises/
-│ ├── 📄 basic-exercises.md
-│ ├── 📄 intermediate-exercises.md
-│ └── 📄 advanced-exercises.md
+│   ├── 📄 basic-exercises.md
+│   ├── 📄 intermediate-exercises.md
+│   └── 📄 advanced-exercises.md
 │
-├── 📁 labs/
-│ ├── 📁 beginner-labs/
-│ │ ├── 📄 lab-01-basic-commands.md
-│ │ ├── 📄 lab-02-file-operations.md
-│ │ └── 📄 lab-03-user-management.md
-│ │
-│ ├── 📁 intermediate-labs/
-│ │ ├── 📄 lab-01-shell-scripting.md
-│ │ ├── 📄 lab-02-network-config.md
-│ │ └── 📄 lab-03-service-management.md
-│ │
-│ └── 📁 advanced-labs/
-│ ├── 📄 lab-01-security-hardening.md
-│ ├── 📄 lab-02-container-deployment.md
-│ └── 📄 lab-03-automation-setup.md
-│
-└── 📁 resources/
-├── 📄 recommended-tools.md
-├── 📄 certification-guides.md
-├── 📄 further-reading.md
-└── 📄 video-tutorials.md
+├── 📄 README.md
+├── 📄 roadmap.md
+├── 📄 contributing.md
+└── 📄 LICENSE
