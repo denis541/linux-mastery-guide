@@ -5,3 +5,7 @@
 2: Numeric mode 
 
 <img width="958" height="946" alt="image" src="https://github.com/user-attachments/assets/b1bdba1d-54bc-4205-a50d-8df612c14d95" />
+
+3: change ownership `chown`
+
+<img width="958" height="946" alt="image" src="https://github.com/user-attachments/assets/2a33de4a-8e77-47c1-bebe-0551c0d2ddce" />
