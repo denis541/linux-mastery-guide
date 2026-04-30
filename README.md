@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-✓-3776AB) 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-✓-326CE5) 
 ![ELK Stack](https://img.shields.io/badge/ELK-✓-005571)  
-
+ 
 # Linux Mastery Guide 
 A comprehensive roadmap from Linux beginner to advanced system administrator.
  
