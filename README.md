@@ -1,5 +1,5 @@
  ![Kubernetes](https://img.shields.io/badge/Kubernetes-✓-326CE5)
-![Docker](https://img.shields.io/badge/Docker-✓-blue) 
+![Docker](https://img.shields.io/badge/Docker-✓-blue)  
 ![Terraform](https://img.shields.io/badge/Terraform-✓-7B42BC)  
 ![Python](https://img.shields.io/badge/Python-✓-3776AB)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-✓-326CE5) 
