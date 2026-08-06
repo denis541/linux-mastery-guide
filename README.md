@@ -6,7 +6,7 @@
 ![ELK Stack](https://img.shields.io/badge/ELK-✓-005571)  
  
 # Linux Mastery Guide 
-A comprehensive roadmap from Linux beginner to advanced system administrato
+A comprehensive roadmap from Linux beginner to advanced system administr
  
 ##  Quick Start
 1. Start with `01-Basics-Getting-Started/`
